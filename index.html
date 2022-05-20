@@ -1,0 +1,41 @@
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Quiz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+	<div class="container">
+        <label class="label other" style="visibility: hidden; font-size:25px; color: gray;" id="score">Score: 0</label> 
+        <br>
+        <br>
+        <br>
+        <label class="label other" style="font-size:35px" id="question">The Question.</label> 
+        <br>
+        <div id="div1">
+            <br>
+            <label class="label other" style="font-size:25px"><input type="radio" name="option" id="radio1" /> <span id="opt1"></span></label>
+            <br>
+            <label class="label other" style="font-size:25px"><input type="radio" name="option" id="radio2" /> <span id="opt2"></span></label>
+            <br>
+            <div id="div2">
+                <br>
+                <label  class="label other" style="font-size:25px"><input type="radio" name="option" id="radio3" /> <span id="opt3"></span></label>
+                <br>
+                <label  class="label other" style="font-size:25px"><input type="radio" name="option" id="radio4" /> <span id="opt4"></span></label>
+            
+            </div>
+        </div>
+        <p visibility='hidden' id="correctAns"></p>
+        
+        <a href="#" id="nextBtn" class="myButton">Start</a>
+        <br/>
+        <br/>
+
+        <label style="visibility: hidden;" class="label other" id="difficulty"></label>
+    </div>
+    </div>	
+    <script src="script.js"></script>
+    </body>
+    </html>
